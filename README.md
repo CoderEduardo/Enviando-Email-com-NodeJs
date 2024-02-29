@@ -1,13 +1,13 @@
 # Enviando Email com NodeJs
 
-# É muito fácil usar o node para enviar email, mas antes de entrar no código precisamos configurar o email responsável por isso.
+## É muito fácil usar o node para enviar email, mas antes de entrar no código precisamos configurar o email responsável por isso.
 
 1) Primeiramente você precisa ativar a autenticação de dois fatores do seu email, que você pode acessar por esse link: https://myaccount.google.com/security
 
 2) Depois disso vamos acessar o App password, dentro da propria configuração de autenticação de dois fatores, dentro do app password você vai 
 criar um projeto, pode ser qualquer um com qualquer nome, precisamos criar esse app apenas para pegar uma chave de pop-up para inserir depois no código.
 
-3) Vamos precisar fazer os seguintes baixar as seguintes bibliotecas para poder rodar esse projeto localmente
+3) Vamos precisar baixar as seguintes bibliotecas para poder rodar esse projeto localmente
 
         npm install express 
         npm install nodemailer
@@ -18,4 +18,4 @@ criar um projeto, pode ser qualquer um com qualquer nome, precisamos criar esse 
 
     node index 
 
-Logo em seguida o console vai exibir uma mensagem de falha o sucesso.
+Logo em seguida o console vai exibir uma mensagem de falha ou sucesso.
